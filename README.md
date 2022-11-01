@@ -54,6 +54,9 @@ The following tables provide summary statistics for overall and lot specific PSI
 |Lot3|1496.14|1498.5|170.2861224|13.0493725|
      
 </td></tr> </table>
+### Analysis Conclusion
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch.
+Variances for overall table meets the requirement. When considered the lot specific variances, Lot 1 and Lot 2 variances are well withing the rquired limits, but Lot 3 data variance exceeds the prescribed threshold. The conclusion is Lot 3 suspension coils are outsifde the design specification.
 
 
 
