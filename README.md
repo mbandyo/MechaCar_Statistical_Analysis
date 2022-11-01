@@ -58,6 +58,60 @@ The following tables provide summary statistics for overall and lot specific PSI
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch.
 Variances for overall table meets the requirement. When considered the lot specific variances, Lot 1 and Lot 2 variances are well withing the rquired limits, but Lot 3 data variance exceeds the prescribed threshold. The conclusion is Lot 3 suspension coils are outsifde the design specification.
 
+### T-test on Suspension coils
+The first t-test was one sample t-test to determine if the sample mean is statistically different from the population mean of 1500 pounds per square inch.
+Following is the t-test result for overall dataset:
+	One Sample t-test
+
+data:  Suspension_Coil_table$PSI
+t = -1.8931, df = 149, p-value = 0.06028</br>
+alternative hypothesis: true mean is not equal to 1500</br>
+95 percent confidence interval:</br>
+ 1497.507 1500.053</br>
+sample estimates:</br>
+mean of x 
+  1498.78 </br>
+The sample mean is withing the 95% confidence interval. Also, the p-value is well over the t-statistic. Hence we cannot reject the null hypothesis that the sample mrean is not statistically different than population mean. 
+
+#### T-test comparing Lot1 PSI mean with population mean
+Null Hypothesis (H<sub>0</sub>): Lot1 PSI mean is not statistically differnet than population mean PSI 1500
+
+	One Sample t-test
+
+data:  lot1_table$PSI
+t = 0, df = 49, p-value = 1
+alternative hypothesis: true mean is not equal to 1500
+95 percent confidence interval:
+ 1499.719 1500.281
+sample estimates:
+mean of x 
+     1500 </br>
+The sample mean is withing the 95% confidence interval. Also, the p-value is well over the t-statistic. Hence we cannot reject the null hypothesis that the sample mrean is not statistically different than population mean. 
+
+#### T-test comparing Lot2 PSI mean with population mean
+Null Hypothesis (H<sub>0</sub>): Lot2 PSI mean is not statistically differnet than population mean PSI 1500
+data:  lot2_table$PSI
+t = 0.51745, df = 49, p-value = 0.6072
+alternative hypothesis: true mean is not equal to 1500
+95 percent confidence interval:
+ 1499.423 1500.977
+sample estimates:
+mean of x 
+   1500.2 </br>
+The sample mean is withing the 95% confidence interval. Also, the p-value is well over the t-statistic. Hence we cannot reject the null hypothesis that the sample mrean is not statistically different than population mean. 
+#### T-test comparing Lot3 PSI mean with population mean
+Null Hypothesis (H<sub>0</sub>): Lot2 PSI mean is not statistically differnet than population mean PSI 1500
+data:  lot3_table$PSI
+t = -2.0916, df = 49, p-value = 0.04168
+alternative hypothesis: true mean is not equal to 1500
+95 percent confidence interval:
+ 1492.431 1499.849
+sample estimates:
+mean of x 
+1496.14 </br>
+The sample mean is withing the 95% confidence interval. Also, the p-value is well over the t-statistic. Hence we cannot reject the null hypothesis that the sample mrean is not statistically different than population mean.
+
+
 
 
 
