@@ -32,7 +32,7 @@ F-statistic: 22.07 on 5 and 44 DF,  p-value: 5.35e-11 </br>
 
 In the summary output, each Pr(>|t|) value represents the probability that each coefficient contributes a random amount of variance to the linear model. According to our results, vehicle weight and horsepower (as well as intercept) are statistically unlikely to provide random amounts of variance to the linear model. In other words the vehicle_length and ground_clearance have a significant impact on mpg. When an intercept is statistically significant (as is the case here), it means that the intercept term explains a significant amount of variability in the dependent variable (mpg) when all independent vairables are equal to zero. Depending on our dataset, a significant intercept could mean that the significant features (such as vehicle_length and ground_clearance) may need scaling or transforming to help improve the predictive power of the model. Alternatively, it may mean that there are other variables that can help explain the variability of our dependent variable that have not been included in our model. </br>
 The p-value (5.35e^-11)is much smaler that statistic (22.07) at 5% significance level. So we can reject the null hypothesis i.e the slope of the linear model is not zero.</br>
-adjusted R<sup>2</sup> is 0.68. So 68% of mpg variability is explained by the independent variables in the mode. This is reasonably good explanatory power of the model.
+Adjusted R<sup>2</sup> is 0.68. So 68% of mpg variability is explained by the independent variables in the mode. This is reasonably good explanatory power of the model.
 
 
 
