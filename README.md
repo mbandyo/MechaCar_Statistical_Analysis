@@ -34,6 +34,28 @@ In the summary output, each Pr(>|t|) value represents the probability that each 
 The p-value (5.35e^-11)is much smaler that statistic (22.07) at 5% significance level. So we can reject the null hypothesis i.e the slope of the linear model is not zero.</br>
 Adjusted R<sup>2</sup> is 0.68. So 68% of mpg variability is explained by the independent variables in the mode. This is reasonably good explanatory power of the model.
 
+## Summary Statistics on Suspension Coils
+The following tables provide summary statistics for overall and lot specific PSI metrics:
+<table>
+<tr><th>Overall Summary </th><th>Summary by Lot</th></tr>
+<tr><td>
+
+|Mean|Median|Variance|standard Deviation| 
+|---|---|---|---|
+|1498.78|1500|62.29356|7.892627|
+
+
+</td><td>
+
+|Manufacturing Lot|Mean|Median|Variance|Standard Deviation| 
+|---|---|---|---|---|
+|Lot1|1500.00|1500.0|0.9795918|0.9897433|
+|Lot2|1500.20|1500.0|7.4693878|2.7330181|
+|Lot3|1496.14|1498.5|170.2861224|13.0493725|
+     
+</td></tr> </table>
+
+
 
 
 
