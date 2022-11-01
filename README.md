@@ -112,7 +112,21 @@ mean of x
 The sample mean is withing the 95% confidence interval. Also, the p-value is well over the t-statistic. Hence we cannot reject the null hypothesis that the sample mrean is not statistically different than population mean.
 
 ## Study Design: MechaCar vs Competition
-For making enhancement in the manufacturing line of MechaCar, it is necessary to understand the market and consumer preferences. 
+For making enhancement in the manufacturing line of MechaCar, it is necessary to understand the market and consumer preferences. There are several methods to gather consumer preference data, but each method has advantages and challenges. For example, consumer survey provides preferences but they may not be aligned with purchasing patterns. It is freasonable to study the available similar products and evaluate the competitive advantages. The important features in a car study design include the following:
+* Safety Features
+* Fuel Efficiency (High way and City)
+* Horse Power
+* Size
+* Maintenance Cost
+* Resale Value
+* Cost
+These could be reasonable metrics to compare and contrast products in the industry.
+For each metric we should test null hypothesis (H<sub>0</sub) MechaCar metric is statistically same with the same industry metric vs. the alternate hypothesis that the specic Mechacar metric is statistically different from the industry average.
+This test could be more targeted by selecting subset of industry products that are comparable to MechaCar in terms of other features and cost. 
+A variety of t-tests would be appropriate depending on the comaroson set.
+#### Data
+To perform the statistical tests, reasonable size dataset is required for the above metrics by manufacturers.	
+
 
 
 
