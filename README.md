@@ -111,6 +111,9 @@ mean of x
 1496.14 </br>
 The sample mean is withing the 95% confidence interval. Also, the p-value is well over the t-statistic. Hence we cannot reject the null hypothesis that the sample mrean is not statistically different than population mean.
 
+## Study Design: MechaCar vs Competition
+For making enhancement in the manufacturing line of MechaCar, it is necessary to understand the market and consumer preferences. 
+
 
 
 
