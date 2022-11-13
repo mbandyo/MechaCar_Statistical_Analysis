@@ -121,7 +121,8 @@ For making enhancement in the manufacturing line of MechaCar, it is necessary to
 * Resale Value
 * Cost
 These could be reasonable metrics to compare and contrast products in the industry.
-For each metric we should test null hypothesis (H<sub>0</sub) MechaCar metric is statistically same with the same industry metric vs. the alternate hypothesis that the specic Mechacar metric is statistically different from the industry average.
+For each metric we should test null hypothesis (H<sub>0</sub>):
+MechaCar metric is statistically same with the same industry metric vs. the alternate hypothesis that the specic Mechacar metric is statistically different from the industry average.
 This test could be more targeted by selecting subset of industry products that are comparable to MechaCar in terms of other features and cost. 
 A variety of t-tests would be appropriate depending on the comaroson set.
 #### Data
